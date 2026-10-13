@@ -661,7 +661,7 @@
    "t": "2026-10-12T19:17:19Z"
   }
  },
- "fail_count": 0,
+ "fail_count": 1,
  "initialized": true,
  "last_check_day": "2026-10-13"
 }
