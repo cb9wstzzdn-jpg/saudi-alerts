@@ -1,90 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "IR",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-18 13:09:47",
-   "id": "e7d68f4b-fba8-4b49-b9b5-a9e61f48cbb4",
-   "lat": 33.488,
-   "lng": 48.356,
-   "location_name": "Khorramabad, Iran",
-   "severity": 1,
-   "title": "Iranian Helicopter Spotted Over Khorramabad"
-  },
-  {
-   "_cc": "SA",
-   "category": "political",
-   "confidence": 45,
-   "created_at": "2026-11-18 13:16:44",
-   "id": "fa8354c6-13ab-4267-8c6d-c425b735523e",
-   "lat": 23.89,
-   "lng": 45.08,
-   "location_name": "Saudi Arabia",
-   "severity": 2,
-   "title": "Saudi Arabia Prepares for Yemen Campaign to Extend Into 2027"
-  },
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 55,
-   "created_at": "2026-11-18 14:42:19",
-   "id": "0fcdab24-7457-441b-8b01-fbbab5d47011",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 2,
-   "title": "Navy Extends Destroyer Deployments to 11 Months for Iran Blockade"
-  },
-  {
-   "_cc": "GW",
-   "category": "political",
-   "confidence": 15,
-   "created_at": "2026-11-18 16:40:18",
-   "id": "367aefdb-583b-4959-8ff1-bcb61ff8c762",
-   "lat": 26.5,
-   "lng": 51.5,
-   "location_name": "Persian Gulf",
-   "severity": 2,
-   "title": "UKMTO Warns of Severe Maritime Threat in Gulf and Strait of Hormuz"
-  },
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 45,
-   "created_at": "2026-11-18 17:07:19",
-   "id": "e089741b-fb44-4aca-9c50-90535e214eb2",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 1,
-   "title": "NYT: Trump Frustrated With Vance Over Iran War Framing"
-  },
-  {
-   "_cc": "BH",
-   "category": "political",
-   "confidence": 55,
-   "created_at": "2026-11-18 18:11:56",
-   "id": "e88a7083-9646-44ef-b9d3-1ae19e6ea92d",
-   "lat": 26.07,
-   "lng": 50.56,
-   "location_name": "Bahrain",
-   "severity": 2,
-   "title": "US State Department Reiterates Security Alerts for Citizens in Bahrain"
-  },
-  {
-   "_cc": "GW",
-   "category": "political",
-   "confidence": 15,
-   "created_at": "2026-11-18 18:31:04",
-   "id": "b2098b68-9447-4ffa-a830-6df29c3d0e66",
-   "lat": 26.5,
-   "lng": 51.5,
-   "location_name": "Persian Gulf",
-   "severity": 2,
-   "title": "Gulf Leaders Urge Trump Not to Attack Iran"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "0348eac6-bdfb-497b-a13a-2541e5a09723": {
    "sev": 3,
@@ -651,8 +566,8 @@
    "t": "2026-11-16T20:48:56Z"
   },
   "e089741b-fb44-4aca-9c50-90535e214eb2": {
-   "sev": 1,
-   "t": "2026-11-18T18:53:28Z"
+   "sev": 2,
+   "t": "2026-11-18T19:27:03Z"
   },
   "e1be545d-abc6-4217-8988-a29bc73d8a7d": {
    "sev": 3,
@@ -758,8 +673,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-18",
- "last_digest_slot": "2026-11-18T11",
- "last_run": "2026-11-18T18:53:28Z",
+ "last_digest_slot": "2026-11-18T19",
+ "last_run": "2026-11-18T19:27:03Z",
  "scope_version": 3,
  "version": 2
 }
