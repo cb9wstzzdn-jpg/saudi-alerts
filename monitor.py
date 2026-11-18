@@ -33,6 +33,8 @@ NOW_OVERRIDE = os.environ.get("NOW")               # ISO time, for offline tests
 STATE_FILE = os.environ.get("STATE_FILE", "state.json")
 USER_AGENT = "personal-gulf-alert-monitor/2.0 (polls every 5 min)"
 STATE_VERSION = 2
+SCOPE_VERSION = 3        # bump when the filter changes
+BACKFILL_HOURS = 6
 
 INSTANT_MIN_SEVERITY = 3
 DIGEST_HOURS_UTC = (3, 11, 19)   # = 06:00, 14:00, 22:00 Riyadh (UTC+3, no DST)
@@ -111,7 +113,21 @@ COUNTRIES = {
                      (57.7, 19.0), (56.6, 18.6), (55.4, 17.8), (53.1, 16.65), (52.0, 19.0), (55.0, 20.0)],
                cities=[]),
 }
+# Persian Gulf + Strait of Hormuz waters (bordered only by watched countries + Musandam).
+COUNTRIES["GW"] = dict(
+    name="Gulf waters", flag="🌊", watch=True,
+    aliases=["persian gulf", "arabian gulf", "strait of hormuz", "hormuz strait", "hormuz",
+             "gulf countries", "gulf states", "gulf nations", "the gulf", "gcc"],
+    poly=[(47.9, 30.0), (49.0, 30.5), (50.1, 30.1), (50.8, 28.8), (51.4, 27.9), (52.5, 27.4),
+          (53.5, 26.8), (55.0, 26.7), (56.2, 27.2), (56.9, 27.0), (56.9, 26.3), (56.4, 26.4),
+          (56.1, 26.05), (55.4, 25.4), (54.6, 24.6), (53.9, 24.1), (52.6, 24.2), (51.6, 24.25),
+          (51.6, 25.8), (51.3, 26.15), (51.05, 26.1), (50.85, 25.6), (50.75, 24.75), (50.2, 25.6),
+          (50.1, 26.2), (49.6, 26.9), (48.8, 27.6), (48.4, 28.55), (47.95, 29.35), (48.15, 29.5),
+          (48.0, 29.95)],
+    cities=[("Strait of Hormuz", 56.4, 26.6), ("Qeshm", 55.9, 26.8), ("Kharg", 50.32, 29.25)])
 WATCHED = [k for k, c in COUNTRIES.items() if c["watch"]]
+# Feed "country" values that are regions rather than a single country.
+REGION_LEVEL_RE = re.compile(r"middle east|gulf|international|multiple|region|global|gcc|waters|^$|unknown|none|null|n/a", re.I)
 
 # Words that make a non-"conflict" event count as conflict/security related.
 SECURITY_RE = re.compile(
@@ -146,29 +162,55 @@ def point_in_polygon(lng, lat, poly):
     return inside
 
 
+LAND_CODES = ("SA", "AE", "QA", "BH", "KW", "IR", "YE")   # watched land countries, in mention order
+
+
+def _mentions(text, codes):
+    """First code (by position in text) whose alias appears in text."""
+    best = None
+    for code in codes:
+        for a in COUNTRIES[code]["aliases"]:
+            if len(a) <= 3 and a not in ("uae", "gcc"):
+                continue
+            m = re.search(r"\b" + re.escape(a) + r"\b", text)
+            if m and (best is None or m.start() < best[0]):
+                best = (m.start(), code)
+    return best[1] if best else None
+
+
 def country_code(ev):
-    """Return a code from COUNTRIES (watched or not), or None."""
+    """Return a code from COUNTRIES, or None. Oman ('OM') is returned but not watched."""
     raw = (ev.get("country") or "").strip().lower()
-    if raw and raw not in ("unknown", "none", "null", "n/a"):
-        for code, c in COUNTRIES.items():
-            if raw in c["aliases"] or any(a == raw for a in c["aliases"]):
-                return code
-        for code, c in COUNTRIES.items():  # e.g. "Riyadh, Saudi Arabia"
-            if any(re.search(r"\b" + re.escape(a) + r"\b", raw) for a in c["aliases"] if len(a) > 3):
-                return code
-        return None
     loc = (ev.get("location_name") or "").lower()
-    for code, c in COUNTRIES.items():
-        if any(re.search(r"\b" + re.escape(a) + r"\b", loc) for a in c["aliases"] if len(a) > 3):
-            return code
+    title = (ev.get("title") or "").lower()
+    region_level = bool(REGION_LEVEL_RE.search(raw))
+    if not region_level:
+        for code, c in COUNTRIES.items():          # exact country name
+            if raw in c["aliases"]:
+                return code
+        hit = _mentions(raw, LAND_CODES + ("OM",))  # e.g. "Kuwait and Bahrain"
+        if hit:
+            return hit
+    # Country missing, region-level, or another country (e.g. "Iraq"): look at the location
+    hit = _mentions(loc, LAND_CODES) or _mentions(loc, ("GW",))
+    if hit:
+        return hit
+    if not region_level:
+        return None                                 # e.g. Israel, Iraq, Oman with no Gulf location
+    # Region-level event ("Middle East", "Persian Gulf"…): countries named in the title first,
+    # because such events often carry generic map coordinates.
+    hit = _mentions(title, LAND_CODES) or _mentions(title, ("GW",))
+    if hit:
+        return hit
     try:
         lng, lat = float(ev["lng"]), float(ev["lat"])
+        for code in ("BH", "QA", "KW", "AE", "YE", "IR", "SA", "GW", "OM"):  # small ones first
+            if point_in_polygon(lng, lat, COUNTRIES[code]["poly"]):
+                return code
     except (KeyError, TypeError, ValueError):
-        return None
-    for code in ("BH", "QA", "KW", "AE", "YE", "IR", "SA", "OM"):  # small ones first
-        if point_in_polygon(lng, lat, COUNTRIES[code]["poly"]):
-            return code
-    return None
+        pass
+    # Region-level event ("Middle East", "Persian Gulf"…): use countries named in the title
+    return _mentions(title, LAND_CODES) or _mentions(title, ("GW",))
 
 
 def is_conflict(ev):
@@ -278,6 +320,12 @@ def draw_flag(d, code, x, y, w=96, h=60):
         d.rectangle(box, fill=W_)
         d.rectangle((x, y, x + w, y + h / 3), fill=R)
         d.rectangle((x, y + 2 * h / 3, x + w, y + h), fill=K)
+    elif code == "GW":
+        d.rectangle(box, fill=(30, 90, 150))
+        for i in (1, 2):
+            yy = y + h * i / 3
+            pts = [(x + w * t / 8, yy + (4 if t % 2 else -4)) for t in range(9)]
+            d.line(pts, fill=W_, width=3)
     else:
         d.rectangle(box, fill=(80, 90, 100))
     d.rectangle(box, outline=(200, 205, 210), width=1)
@@ -305,10 +353,16 @@ def draw_map(img, rect, bbox, pins, focus=None, flag=None):
     layer = img.copy()
     ld = ImageDraw.Draw(layer)
     for code, c in COUNTRIES.items():
+        if code == "GW":
+            continue
         fill = (52, 72, 92) if code == focus else (32, 42, 54)
         outline = (140, 175, 205) if code == focus else (70, 85, 100)
         ld.polygon([xy(*p) for p in c["poly"]], fill=fill, outline=outline)
+    if focus == "GW":
+        ld.polygon([xy(*p) for p in COUNTRIES["GW"]["poly"]], fill=(24, 48, 72), outline=(110, 160, 200))
     for code, c in COUNTRIES.items():
+        if code == "GW" and focus != "GW":
+            continue
         if code == focus:
             for name, lng, lat in c["cities"]:
                 if lng0 <= lng <= lng1 and lat0 <= lat <= lat1:
@@ -582,12 +636,24 @@ def main():
         ntfy_send("⚙️ Gulf alerts: back online", "The monitor can read the site again.", REGION_URL)
     state["fail_count"] = 0
 
-    matched, by_country, in_area = [], {}, 0
+    prev_run = state.get("last_run")
+    if prev_run:
+        gap = (now - datetime.fromisoformat(prev_run.replace("Z", "+00:00"))).total_seconds() / 60
+        log(f"Previous run: {prev_run} ({gap:.0f} min ago)")
+    state["last_run"] = stamp
+
+    matched, by_country, in_area, excluded = [], {}, 0, []
     for e in events:
         if not e.get("id"):
             continue
         code = country_code(e)
         if code not in WATCHED:
+            try:   # diagnostics: conflict events nearby that we did NOT include
+                if (e.get("category") or "").lower() == "conflict" and 34 <= float(e["lng"]) <= 64 \
+                        and 12 <= float(e["lat"]) <= 40:
+                    excluded.append(e)
+            except (KeyError, TypeError, ValueError):
+                pass
             continue
         in_area += 1
         if not is_conflict(e):
@@ -600,6 +666,9 @@ def main():
     log(f"Feed: {len(events)} events; {in_area} in watched countries; {len(matched)} conflict-related "
         f"({len(hi)} S3+, {len(matched) - len(hi)} S1-S2); by country: "
         + ", ".join(f"{COUNTRIES[c]['name']} {n}" for c, n in sorted(by_country.items())))
+    excluded.sort(key=lambda e: e.get("created_at") or "", reverse=True)
+    for e in excluded[:12]:
+        log(f"  not included: S{severity(e)} [{e.get('country')} | {e.get('location_name')}] {e.get('title')}")
 
     seen = state.setdefault("events", {})
     queue = state.setdefault("digest_queue", [])
@@ -623,7 +692,8 @@ def main():
         # First run of this version: remember everything already in the feed (no flood).
         for e in matched:
             seen[e["id"]] = {"sev": severity(e), "t": stamp}
-        state.update(version=STATE_VERSION, initialized=True, last_digest_slot=slot_id)
+        state.update(version=STATE_VERSION, scope_version=SCOPE_VERSION, initialized=True,
+                     last_digest_slot=slot_id)
         state["digest_queue"] = []
         names = ", ".join(COUNTRIES[c]["flag"] + " " + COUNTRIES[c]["name"] for c in WATCHED)
         ntfy_send("✅ Gulf alerts updated",
@@ -632,6 +702,17 @@ def main():
                   f"{len(matched)} events already in the feed were skipped.", REGION_URL)
         save_state(state)
         return
+
+    if state.get("scope_version") != SCOPE_VERSION:
+        # Filter was widened: alert only on newly-included events from the last few hours.
+        cutoff_new = (now - timedelta(hours=BACKFILL_HOURS)).strftime("%Y-%m-%d %H:%M:%S")
+        skipped = 0
+        for e in matched:
+            if e["id"] not in seen and (e.get("created_at") or "") < cutoff_new:
+                seen[e["id"]] = {"sev": severity(e), "t": stamp}
+                skipped += 1
+        state["scope_version"] = SCOPE_VERSION
+        log(f"Filter update: {skipped} newly-included events older than {BACKFILL_HOURS}h marked as seen")
 
     # --- instant alerts and digest queue
     instant = []
@@ -662,9 +743,10 @@ def main():
         ntfy_send(f"{flags} +{len(extra)} more S3+ events",
                   "\n".join(f"{cinfo(e)['flag']} S{severity(e)} {e.get('title', '')}" for e, _ in extra),
                   REGION_URL)
+    log(f"New/upgraded S3+ this run: {len(instant)}; digest queue: {len(queue)}")
     for e, upgraded in instant:
-        if notify_instant(e, upgraded=upgraded):
-            log("instant sent:", e.get("title"))
+        ok = notify_instant(e, upgraded=upgraded)
+        log(f"instant {'sent' if ok else 'FAILED'}: {cinfo(e)['name']} S{severity(e)} {e.get('title')}")
         time.sleep(1)
 
     if state.get("last_digest_slot") != slot_id:
