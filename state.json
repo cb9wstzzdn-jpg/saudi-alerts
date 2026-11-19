@@ -1,5 +1,78 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-18 19:48:46",
+   "id": "460c252c-f46c-44ca-864d-c256fe94dfbc",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Russia, China, Iran Say IAEA Work in Iran Must Wait for Ceasefire"
+  },
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-18 19:52:18",
+   "id": "628b162a-dbbb-43e5-bc8f-e0b279bc0e62",
+   "lat": 26.5,
+   "lng": 51.5,
+   "location_name": "Persian Gulf",
+   "severity": 2,
+   "title": "US Carrier Strike Group Departs Persian Gulf for Japan"
+  },
+  {
+   "_cc": "BH",
+   "category": "political",
+   "confidence": 55,
+   "created_at": "2026-11-18 19:59:43",
+   "id": "d3c60b70-0fe7-42e2-9dde-3f15e13e36b2",
+   "lat": 26,
+   "lng": 50.5,
+   "location_name": "Bahrain and Saudi Arabia",
+   "severity": 2,
+   "title": "US Urges Citizens in Bahrain, Saudi Arabia to Stay Vigilant"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 45,
+   "created_at": "2026-11-18 22:00:28",
+   "id": "ce1eac05-0da9-4bc0-a0f6-86ae2e92eb8d",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Trump Awaits US Military Readiness Before Iran Strike Decision"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-18 22:20:26",
+   "id": "cd66c935-6226-46a3-a390-1bcc6b42fd7d",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Iran Threatens Retaliation Against US Forces"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 45,
+   "created_at": "2026-11-18 23:56:49",
+   "id": "6660a80f-3632-4df1-a6a3-cef33119369d",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Trump Weighs New Strike Campaign Against Iran, NYT Reports"
+  }
+ ],
  "events": {
   "0348eac6-bdfb-497b-a13a-2541e5a09723": {
    "sev": 3,
@@ -16,6 +89,10 @@
   "04bbdbce-0cb8-4748-b52f-f9e2cc8b45c4": {
    "sev": 3,
    "t": "2026-11-08T11:37:30Z"
+  },
+  "0679053b-6197-4de3-af26-f09724443c80": {
+   "sev": 3,
+   "t": "2026-11-19T01:25:09Z"
   },
   "07171e12-5688-4ae5-b9ef-3456f5a9fac4": {
    "sev": 2,
@@ -113,10 +190,6 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
-  "296b5bc5-a9b6-4a92-a995-385a1afb7496": {
-   "sev": 2,
-   "t": "2026-11-04T20:25:30Z"
-  },
   "2c995007-0ec6-4f6d-9dba-8fafc3e54de6": {
    "sev": 2,
    "t": "2026-11-05T11:27:33Z"
@@ -177,6 +250,10 @@
    "sev": 2,
    "t": "2026-11-09T17:51:03Z"
   },
+  "38a8af6b-fcbc-4932-9cbe-6d0463418bd7": {
+   "sev": 3,
+   "t": "2026-11-19T01:25:09Z"
+  },
   "38e1a2a2-af2b-4ec6-b75a-f07dcf640311": {
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
@@ -209,9 +286,17 @@
    "sev": 3,
    "t": "2026-11-07T13:13:12Z"
   },
+  "460c252c-f46c-44ca-864d-c256fe94dfbc": {
+   "sev": 2,
+   "t": "2026-11-19T01:25:09Z"
+  },
   "4b6bd4f0-fd38-49bb-b71b-037663cde7de": {
    "sev": 3,
    "t": "2026-11-11T15:38:40Z"
+  },
+  "4c252cae-ea99-470d-b5f1-bccaa749f8be": {
+   "sev": 3,
+   "t": "2026-11-19T01:25:09Z"
   },
   "4c8c6691-d5a2-43c7-b208-df2ff4d9181e": {
    "sev": 3,
@@ -269,6 +354,10 @@
    "sev": 3,
    "t": "2026-11-08T05:31:55Z"
   },
+  "628b162a-dbbb-43e5-bc8f-e0b279bc0e62": {
+   "sev": 2,
+   "t": "2026-11-19T01:25:09Z"
+  },
   "638e73b8-f223-421b-96ec-de923c33b9a0": {
    "sev": 2,
    "t": "2026-11-08T04:00:32Z"
@@ -292,6 +381,10 @@
   "6631bc33-9896-4a39-8614-0c5a658ce274": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "6660a80f-3632-4df1-a6a3-cef33119369d": {
+   "sev": 2,
+   "t": "2026-11-19T01:25:09Z"
   },
   "6720325e-6ca1-40e3-9266-e52ee052dddc": {
    "sev": 3,
@@ -332,10 +425,6 @@
   "7f8705da-88b4-4a19-bb80-de103c1b1bc7": {
    "sev": 2,
    "t": "2026-11-08T21:25:39Z"
-  },
-  "81b5db8b-f43a-4cdf-97e7-b9fdd7d0ad6a": {
-   "sev": 2,
-   "t": "2026-11-04T19:37:02Z"
   },
   "822dccaf-e5d6-4ff3-ab69-bdf00d48470a": {
    "sev": 2,
@@ -404,6 +493,10 @@
   "9efebb08-ea4b-4925-bf97-a673fb1f9709": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "9f1e67f5-bc02-4979-86d5-d958878cbb80": {
+   "sev": 3,
+   "t": "2026-11-19T01:25:09Z"
   },
   "a0a121d4-edbb-4b73-81a3-d239230ba6d6": {
    "sev": 2,
@@ -529,6 +622,14 @@
    "sev": 1,
    "t": "2026-11-12T18:35:26Z"
   },
+  "cd66c935-6226-46a3-a390-1bcc6b42fd7d": {
+   "sev": 2,
+   "t": "2026-11-19T01:25:09Z"
+  },
+  "ce1eac05-0da9-4bc0-a0f6-86ae2e92eb8d": {
+   "sev": 2,
+   "t": "2026-11-19T01:25:09Z"
+  },
   "cf0ea265-61ef-459b-a852-f1bc0c56aff6": {
    "sev": 1,
    "t": "2026-11-18T12:59:29Z"
@@ -537,9 +638,9 @@
    "sev": 3,
    "t": "2026-11-15T19:56:35Z"
   },
-  "d44d2672-14cb-4cd1-9979-9e466a46e861": {
+  "d3c60b70-0fe7-42e2-9dde-3f15e13e36b2": {
    "sev": 2,
-   "t": "2026-11-04T21:13:58Z"
+   "t": "2026-11-19T01:25:09Z"
   },
   "d54b8a48-e4eb-4965-b388-0e125c5ad426": {
    "sev": 3,
@@ -672,9 +773,9 @@
  },
  "fail_count": 0,
  "initialized": true,
- "last_check_day": "2026-11-18",
+ "last_check_day": "2026-11-19",
  "last_digest_slot": "2026-11-18T19",
- "last_run": "2026-11-18T19:27:03Z",
+ "last_run": "2026-11-19T01:25:09Z",
  "scope_version": 3,
  "version": 2
 }
