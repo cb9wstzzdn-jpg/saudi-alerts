@@ -1,5 +1,18 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-20 08:23:09",
+   "id": "e04fbc1e-f0d3-4e6c-8da0-e9e0c004f729",
+   "lat": 26.5,
+   "lng": 51.5,
+   "location_name": "Persian Gulf, Gulf of Oman, Black Sea, Gulf of Aden",
+   "severity": 2,
+   "title": "Weekly Shipping Attacks Rise 50% Across Gulf, Black Sea"
+  }
+ ],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -641,6 +654,10 @@
    "sev": 2,
    "t": "2026-11-16T20:48:56Z"
   },
+  "e04fbc1e-f0d3-4e6c-8da0-e9e0c004f729": {
+   "sev": 2,
+   "t": "2026-11-20T08:25:25Z"
+  },
   "e089741b-fb44-4aca-9c50-90535e214eb2": {
    "sev": 2,
    "t": "2026-11-18T19:27:03Z"
@@ -782,7 +799,7 @@
  "initialized": true,
  "last_check_day": "2026-11-20",
  "last_digest_slot": "2026-11-20T03",
- "last_run": "2026-11-20T07:50:04Z",
+ "last_run": "2026-11-20T08:25:25Z",
  "scope_version": 3,
  "version": 2
 }
