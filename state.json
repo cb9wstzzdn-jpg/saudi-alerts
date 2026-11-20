@@ -1,30 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "YE",
-   "category": "conflict",
-   "confidence": 30,
-   "created_at": "2026-11-20 16:28:37",
-   "id": "ce488017-e391-4909-8dd8-e0955039de5d",
-   "lat": 12.78,
-   "lng": 45.039,
-   "location_name": "Aden, Yemen",
-   "severity": 2,
-   "title": "Aden Braces as Houthis Advance on Fragmented Defenders"
-  },
-  {
-   "_cc": "SA",
-   "category": "political",
-   "confidence": 15,
-   "created_at": "2026-11-20 16:40:12",
-   "id": "1cd3f48a-6d25-4399-9fe6-bd545f78d58f",
-   "lat": 23.5,
-   "lng": 38,
-   "location_name": "Red Sea, Saudi Arabia",
-   "severity": 2,
-   "title": "Houthis Warn Saudi Red Sea Port Employees to Evacuate"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -370,6 +345,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "664ae44f-f090-4256-9ad9-25b8bcadbcdd": {
+   "sev": 2,
+   "t": "2026-11-20T22:47:16Z"
+  },
   "6660a80f-3632-4df1-a6a3-cef33119369d": {
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
@@ -493,6 +472,10 @@
   "91abde78-67e5-42a2-80d6-3ded49ce3e6f": {
    "sev": 2,
    "t": "2026-11-15T19:56:35Z"
+  },
+  "924707b7-dbab-4385-92e8-fc1fef37494d": {
+   "sev": 2,
+   "t": "2026-11-20T22:47:16Z"
   },
   "9513ab7b-49a7-4165-b08c-aa3a27e0e78c": {
    "sev": 3,
@@ -629,10 +612,6 @@
   "b7d100fd-e5be-4870-ad6f-868fc391eb58": {
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
-  },
-  "b7d8c997-b1cd-4011-9966-a4be507c4bb4": {
-   "sev": 2,
-   "t": "2026-11-06T17:15:27Z"
   },
   "b97b696d-7c40-49e3-a9c6-d286f573e126": {
    "sev": 3,
@@ -890,8 +869,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-20",
- "last_digest_slot": "2026-11-20T11",
- "last_run": "2026-11-20T17:13:33Z",
+ "last_digest_slot": "2026-11-20T19",
+ "last_run": "2026-11-20T22:47:16Z",
  "scope_version": 3,
  "version": 2
 }
