@@ -1,18 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 30,
-   "created_at": "2026-11-21 05:37:41",
-   "id": "820c8e68-5bf1-421a-aac9-346f50f7c8ff",
-   "lat": 27.131,
-   "lng": 57.087,
-   "location_name": "Minab, Iran",
-   "severity": 2,
-   "title": "Iran Urges World to Remember 168 Killed in US Airstrike on Minab School"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -169,6 +156,10 @@
   "2e58415c-37ba-4f1a-8484-0e6250a4b62b": {
    "sev": 2,
    "t": "2026-11-16T10:58:53Z"
+  },
+  "2e74cb70-f33b-4d12-968e-e284e0ee5295": {
+   "sev": 2,
+   "t": "2026-11-21T12:31:04Z"
   },
   "2e82e478-4fbb-46d3-aca3-50c9f2447c0f": {
    "sev": 2,
@@ -682,6 +673,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "c13a3266-8b06-4051-8f65-ba9864df9f4f": {
+   "sev": 2,
+   "t": "2026-11-21T12:31:04Z"
+  },
   "c1894d31-bb18-46c5-b9f0-ea28bbf6cda4": {
    "sev": 3,
    "t": "2026-11-20T23:11:22Z"
@@ -930,8 +925,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-21",
- "last_digest_slot": "2026-11-21T03",
- "last_run": "2026-11-21T11:44:24Z",
+ "last_digest_slot": "2026-11-21T11",
+ "last_run": "2026-11-21T12:31:04Z",
  "scope_version": 3,
  "version": 2
 }
