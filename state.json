@@ -1,5 +1,42 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "BH",
+   "category": "conflict",
+   "confidence": 45,
+   "created_at": "2026-11-21 18:30:20",
+   "id": "7755bc04-27ae-4e3b-ba56-846f23b629dc",
+   "lat": 26.07,
+   "lng": 50.56,
+   "location_name": "Bahrain",
+   "severity": 2,
+   "title": "Bahrain Issues Alert Over Potential Threat"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-21 20:32:05",
+   "id": "e180d339-94e3-43be-a367-7d0ee7bb41c6",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Iran's Revolutionary Guard Says Operations Respond to US Aggression"
+  },
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-21 22:07:00",
+   "id": "895f8cd5-d2bc-437e-904d-0c4c83b6c44e",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "US F-35A Declares Emergency Over Strait of Hormuz"
+  }
+ ],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -64,6 +101,10 @@
   "0d17a8f2-50e0-451e-a004-ef4c0fb7ec0c": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "0dc8e50f-c6f2-4a34-af54-9ad728c9a2d1": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
   },
   "0fcdab24-7457-441b-8b01-fbbab5d47011": {
    "sev": 2,
@@ -249,6 +290,10 @@
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
   },
+  "3f92c8e9-ba20-4d2f-bd47-91cc587dea1f": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "3fe6755a-4fe3-45a4-b86c-7daf4b4d68c3": {
    "sev": 1,
    "t": "2026-11-10T07:48:10Z"
@@ -357,6 +402,10 @@
    "sev": 3,
    "t": "2026-11-20T00:45:27Z"
   },
+  "5f63ef28-5036-4edb-8db9-fbb071903838": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "606acd9b-0eac-4f4b-a8af-f9d9d15f393c": {
    "sev": 3,
    "t": "2026-11-08T05:31:55Z"
@@ -441,6 +490,14 @@
    "sev": 3,
    "t": "2026-11-10T00:52:03Z"
   },
+  "7755bc04-27ae-4e3b-ba56-846f23b629dc": {
+   "sev": 2,
+   "t": "2026-11-21T23:28:30Z"
+  },
+  "7979a028-028b-4298-9634-6d05fd96f121": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "7a4ca8a7-c587-4eae-a579-3d903b5ad110": {
    "sev": 2,
    "t": "2026-11-08T06:20:01Z"
@@ -509,6 +566,10 @@
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
   },
+  "895f8cd5-d2bc-437e-904d-0c4c83b6c44e": {
+   "sev": 2,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "8cd14bce-cbe8-423d-8783-211b398ad1e7": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -554,8 +615,8 @@
    "t": "2026-11-12T23:50:19Z"
   },
   "9825f985-9a75-4ab0-aec2-43ad1d6868a2": {
-   "sev": 2,
-   "t": "2026-11-21T19:43:40Z"
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
   },
   "99827031-ec8c-46f7-8f80-96184461e26b": {
    "sev": 2,
@@ -785,6 +846,10 @@
    "sev": 1,
    "t": "2026-11-18T12:59:29Z"
   },
+  "cfe5e53f-e286-4c8a-9a3e-be9afb931482": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "d1e51d1d-1b89-417f-b852-201cb3b25671": {
    "sev": 3,
    "t": "2026-11-15T19:56:35Z"
@@ -840,6 +905,10 @@
   "e089741b-fb44-4aca-9c50-90535e214eb2": {
    "sev": 2,
    "t": "2026-11-18T19:27:03Z"
+  },
+  "e180d339-94e3-43be-a367-7d0ee7bb41c6": {
+   "sev": 2,
+   "t": "2026-11-21T23:28:30Z"
   },
   "e1be545d-abc6-4217-8988-a29bc73d8a7d": {
    "sev": 3,
@@ -949,6 +1018,10 @@
    "sev": 2,
    "t": "2026-11-19T18:21:24Z"
   },
+  "f4b4122c-3a11-457d-8471-d6daeea375d5": {
+   "sev": 3,
+   "t": "2026-11-21T23:28:30Z"
+  },
   "f4bb101c-d6ea-4106-98f1-c6c826c0d1a1": {
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
@@ -998,7 +1071,7 @@
  "initialized": true,
  "last_check_day": "2026-11-21",
  "last_digest_slot": "2026-11-21T19",
- "last_run": "2026-11-21T19:43:40Z",
+ "last_run": "2026-11-21T23:28:30Z",
  "scope_version": 3,
  "version": 2
 }
