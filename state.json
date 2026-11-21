@@ -1,5 +1,78 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-21 12:45:56",
+   "id": "3963c8c9-2598-47b4-813c-839597b3385a",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "US Blockade of Iran Reaches 130 Days"
+  },
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 30,
+   "created_at": "2026-11-21 13:39:32",
+   "id": "5b10e641-4f37-4f0b-94a2-aa2d45edef5c",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "IRGC Media Claims F-16 Damage, Ship Attacks, New Missile Platform"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-21 14:10:24",
+   "id": "eb546455-e8de-45b7-a32b-2939ab0395cd",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 1,
+   "title": "IRGC Commander Visits Aerospace Missile Facility"
+  },
+  {
+   "_cc": "YE",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-21 14:34:36",
+   "id": "2bd160af-e278-4f80-a841-e53ef4c9a0ea",
+   "lat": 15.35,
+   "lng": 44.21,
+   "location_name": "Sana'a Governorate, Yemen",
+   "severity": 2,
+   "title": "Yemen's Hamdan Tribe Mobilizes in Sana'a for Front Lines"
+  },
+  {
+   "_cc": "GW",
+   "category": "political",
+   "confidence": 55,
+   "created_at": "2026-11-21 14:53:36",
+   "id": "1c0365e7-ade6-40dd-896f-20eab9e95996",
+   "lat": 26.5,
+   "lng": 51.5,
+   "location_name": "Persian Gulf",
+   "severity": 2,
+   "title": "US Military Denies Iranian Claim of F-16 Damage Over Gulf"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-21 16:07:34",
+   "id": "85e687ef-4deb-42ba-aba7-26056895d76a",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 1,
+   "title": "Iran Showcases New Twin-Missile Launcher at Underground Complex"
+  }
+ ],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -93,6 +166,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "1c0365e7-ade6-40dd-896f-20eab9e95996": {
+   "sev": 2,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "1c65f4c2-76e4-4ccd-ae5c-d30bbaba63a8": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
@@ -148,6 +225,10 @@
   "28248183-7388-4894-91d9-2b835f8b3f7e": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "2bd160af-e278-4f80-a841-e53ef4c9a0ea": {
+   "sev": 2,
+   "t": "2026-11-21T18:16:48Z"
   },
   "2e3d7e50-625c-489c-a9c9-9cd49e9e41e2": {
    "sev": 3,
@@ -225,6 +306,10 @@
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
   },
+  "3963c8c9-2598-47b4-813c-839597b3385a": {
+   "sev": 2,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "3bd231f4-faaf-4bc8-8803-cf92944eebf3": {
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
@@ -252,10 +337,6 @@
   "43f9c68d-c20d-422f-bdda-e535c3126691": {
    "sev": 2,
    "t": "2026-11-21T03:33:51Z"
-  },
-  "456bc20e-331c-47c8-9819-d5d8bf167752": {
-   "sev": 3,
-   "t": "2026-11-07T13:13:12Z"
   },
   "45c85b67-f2d1-4a3f-9450-8ce858c3bd48": {
    "sev": 3,
@@ -324,6 +405,10 @@
   "57b4bfeb-95e0-4b6b-89b8-91c8c3eacfc4": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "5b10e641-4f37-4f0b-94a2-aa2d45edef5c": {
+   "sev": 2,
+   "t": "2026-11-21T18:16:48Z"
   },
   "5b833300-b8dc-4530-8ad1-2186ae9c675d": {
    "sev": 3,
@@ -477,6 +562,10 @@
    "sev": 3,
    "t": "2026-11-09T17:51:03Z"
   },
+  "85e687ef-4deb-42ba-aba7-26056895d76a": {
+   "sev": 1,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "88275213-4490-4d18-a918-0fd32dbe8206": {
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
@@ -536,6 +625,10 @@
   "9bb7d1d0-8c5b-43ee-b035-d827a2a73c60": {
    "sev": 2,
    "t": "2026-11-18T15:37:16Z"
+  },
+  "9c69dd7a-ca2b-46b1-bd8b-1eb317b17a49": {
+   "sev": 3,
+   "t": "2026-11-21T18:16:48Z"
   },
   "9c6f1242-37ea-420b-a50d-12f1e8d8cf7f": {
    "sev": 3,
@@ -673,6 +766,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "c04aba50-3926-451b-bbcc-6f2cef0487e7": {
+   "sev": 3,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "c13a3266-8b06-4051-8f65-ba9864df9f4f": {
    "sev": 2,
    "t": "2026-11-21T12:31:04Z"
@@ -737,10 +834,6 @@
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
   },
-  "d54b8a48-e4eb-4965-b388-0e125c5ad426": {
-   "sev": 3,
-   "t": "2026-11-07T16:16:39Z"
-  },
   "d6f7abb0-61df-4da9-b36f-8d25c18c5247": {
    "sev": 2,
    "t": "2026-11-19T09:12:51Z"
@@ -764,6 +857,10 @@
   "dcd1a406-aebf-4810-82e8-4c07289c15bb": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "dd857ef0-88ee-41de-9985-e1bb8303fdbb": {
+   "sev": 3,
+   "t": "2026-11-21T18:16:48Z"
   },
   "df8d1dbf-a67a-413a-9e03-f16a69ecf37c": {
    "sev": 1,
@@ -853,6 +950,10 @@
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
   },
+  "eb546455-e8de-45b7-a32b-2939ab0395cd": {
+   "sev": 1,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "ed76f132-e554-4a11-bd3b-bb5074e82a45": {
    "sev": 3,
    "t": "2026-11-13T23:51:44Z"
@@ -893,6 +994,10 @@
    "sev": 3,
    "t": "2026-11-19T18:37:10Z"
   },
+  "f5d601eb-73ef-4093-87dd-5a019c1504c0": {
+   "sev": 3,
+   "t": "2026-11-21T18:16:48Z"
+  },
   "f679a5e4-2b8e-4a5d-b4fa-aba61394f920": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
@@ -926,7 +1031,7 @@
  "initialized": true,
  "last_check_day": "2026-11-21",
  "last_digest_slot": "2026-11-21T11",
- "last_run": "2026-11-21T12:31:04Z",
+ "last_run": "2026-11-21T18:16:48Z",
  "scope_version": 3,
  "version": 2
 }
