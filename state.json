@@ -1,5 +1,42 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-22 04:15:30",
+   "id": "5452604b-b7a6-42a3-b1ce-ef8d2cec5507",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Tanker With Iranian Crude Heads Toward US Blockade Line"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-22 04:25:42",
+   "id": "2d300563-332f-4708-9770-9f14760556f2",
+   "lat": 27.131,
+   "lng": 57.087,
+   "location_name": "Minab, Iran",
+   "severity": 2,
+   "title": "Red Crescent Chief Calls for Probe Into Minab School Attack"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-22 05:38:02",
+   "id": "257b9912-c752-40c3-a0f6-01c02cd714ae",
+   "lat": 20,
+   "lng": 0,
+   "location_name": "Global",
+   "severity": 2,
+   "title": "Turkish FM Calls US-Iran Deal Vital to Global Finance"
+  }
+ ],
  "events": {
   "02ca7e1f-41f9-40a4-a4dd-3c91b59857e0": {
    "sev": 3,
@@ -137,9 +174,9 @@
    "sev": 2,
    "t": "2026-11-12T18:35:26Z"
   },
-  "2470673b-b315-4759-a468-a1c8b4c467e2": {
-   "sev": 3,
-   "t": "2026-11-08T06:20:01Z"
+  "257b9912-c752-40c3-a0f6-01c02cd714ae": {
+   "sev": 2,
+   "t": "2026-11-22T06:33:47Z"
   },
   "258d87b9-70d7-4f2b-a366-62c289a63571": {
    "sev": 1,
@@ -164,6 +201,10 @@
   "2bd160af-e278-4f80-a841-e53ef4c9a0ea": {
    "sev": 2,
    "t": "2026-11-21T18:16:48Z"
+  },
+  "2d300563-332f-4708-9770-9f14760556f2": {
+   "sev": 2,
+   "t": "2026-11-22T06:33:47Z"
   },
   "2e3d7e50-625c-489c-a9c9-9cd49e9e41e2": {
    "sev": 3,
@@ -305,10 +346,6 @@
    "sev": 3,
    "t": "2026-11-12T02:59:07Z"
   },
-  "4cb2a4b4-ba97-4849-9757-fee1fb6a46cc": {
-   "sev": 3,
-   "t": "2026-11-08T06:20:01Z"
-  },
   "4d24bb0a-a58e-4c47-b5ad-0d9b173b20be": {
    "sev": 2,
    "t": "2026-11-21T19:43:40Z"
@@ -349,6 +386,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "5452604b-b7a6-42a3-b1ce-ef8d2cec5507": {
+   "sev": 2,
+   "t": "2026-11-22T06:33:47Z"
+  },
   "54e654c1-3812-4001-9fab-7200f50875e3": {
    "sev": 1,
    "t": "2026-11-18T12:59:29Z"
@@ -381,10 +422,6 @@
    "sev": 3,
    "t": "2026-11-21T23:28:30Z"
   },
-  "606acd9b-0eac-4f4b-a8af-f9d9d15f393c": {
-   "sev": 3,
-   "t": "2026-11-08T05:31:55Z"
-  },
   "62674b1c-723d-4211-8d5c-485db872ac56": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -392,10 +429,6 @@
   "628b162a-dbbb-43e5-bc8f-e0b279bc0e62": {
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
-  },
-  "638e73b8-f223-421b-96ec-de923c33b9a0": {
-   "sev": 2,
-   "t": "2026-11-08T04:00:32Z"
   },
   "63c584ec-2a91-434e-bbf8-3111c038b702": {
    "sev": 2,
@@ -472,10 +505,6 @@
   "7979a028-028b-4298-9634-6d05fd96f121": {
    "sev": 3,
    "t": "2026-11-21T23:28:30Z"
-  },
-  "7a4ca8a7-c587-4eae-a579-3d903b5ad110": {
-   "sev": 2,
-   "t": "2026-11-08T06:20:01Z"
   },
   "7bc900ef-237c-4d5e-bcec-ebf18023d7d7": {
    "sev": 3,
@@ -1042,7 +1071,7 @@
  "initialized": true,
  "last_check_day": "2026-11-22",
  "last_digest_slot": "2026-11-22T03",
- "last_run": "2026-11-22T03:25:26Z",
+ "last_run": "2026-11-22T06:33:47Z",
  "scope_version": 3,
  "version": 2
 }
