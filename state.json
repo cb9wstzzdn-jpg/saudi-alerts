@@ -1,5 +1,30 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "GW",
+   "category": "political",
+   "confidence": 45,
+   "created_at": "2026-11-22 21:42:49",
+   "id": "bf21004a-3ac8-45eb-b6ea-91fd8f41edc2",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "CENTCOM at Maximum Readiness, Pushing for Strike on Iran"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-22 22:41:31",
+   "id": "cd07f59a-c069-4ac9-a5c6-ce87c621b006",
+   "lat": 31,
+   "lng": 49,
+   "location_name": "Khuzestan Province, Iran",
+   "severity": 2,
+   "title": "Heavy Air Defense Activity Reported in Iran's Khuzestan Province"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -525,10 +550,6 @@
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
   },
-  "7f8705da-88b4-4a19-bb80-de103c1b1bc7": {
-   "sev": 2,
-   "t": "2026-11-08T21:25:39Z"
-  },
   "80d7f4dc-6ead-4f4a-9386-19dc592985a5": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -653,10 +674,6 @@
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
   },
-  "a0a121d4-edbb-4b73-81a3-d239230ba6d6": {
-   "sev": 2,
-   "t": "2026-11-08T21:25:39Z"
-  },
   "a1a00cfb-070e-4bda-914b-f88ca6c10657": {
    "sev": 3,
    "t": "2026-11-21T19:43:40Z"
@@ -769,6 +786,14 @@
    "sev": 3,
    "t": "2026-11-15T19:56:35Z"
   },
+  "b9e36d09-5398-4ac0-a64f-98b226f9661d": {
+   "sev": 3,
+   "t": "2026-11-22T23:59:29Z"
+  },
+  "bb0e622a-228e-43e1-8858-3f0eac10ffa3": {
+   "sev": 3,
+   "t": "2026-11-22T23:59:29Z"
+  },
   "bb2294ae-383f-4bea-bd8d-75a9f57eac75": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
@@ -796,6 +821,10 @@
   "be2751ee-3979-437c-86d9-330f6edaf0d6": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "bf21004a-3ac8-45eb-b6ea-91fd8f41edc2": {
+   "sev": 2,
+   "t": "2026-11-22T23:59:29Z"
   },
   "c04aba50-3926-451b-bbcc-6f2cef0487e7": {
    "sev": 3,
@@ -840,6 +869,10 @@
   "cc8498ff-b4c1-4fc9-9bdb-b828442dcfd7": {
    "sev": 1,
    "t": "2026-11-19T18:21:24Z"
+  },
+  "cd07f59a-c069-4ac9-a5c6-ce87c621b006": {
+   "sev": 2,
+   "t": "2026-11-22T23:59:29Z"
   },
   "cd66c935-6226-46a3-a390-1bcc6b42fd7d": {
    "sev": 2,
@@ -1086,7 +1119,7 @@
  "initialized": true,
  "last_check_day": "2026-11-22",
  "last_digest_slot": "2026-11-22T19",
- "last_run": "2026-11-22T21:00:25Z",
+ "last_run": "2026-11-22T23:59:29Z",
  "scope_version": 3,
  "version": 2
 }
