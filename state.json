@@ -23,6 +23,30 @@
    "location_name": "Mokha, Yemen",
    "severity": 2,
    "title": "Ansarallah Shows Abandoned Saudi-Backed Arms in Mokha"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 45,
+   "created_at": "2026-11-22 17:40:41",
+   "id": "e69468fd-7c10-4835-afc7-763a903e1e8b",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Trump Says He Is Inclined to Resume Strikes on Iran After New Year"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 45,
+   "created_at": "2026-11-22 18:00:14",
+   "id": "125183bb-3fbc-489e-87a1-86b9f9738340",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Trump Warns Iran: Vessels Challenging Blockade Will Be Sunk"
   }
  ],
  "events": {
@@ -45,10 +69,6 @@
   "040b49b4-564c-4dce-aa78-f6313e2aa741": {
    "sev": 2,
    "t": "2026-11-19T18:21:24Z"
-  },
-  "04b9ca80-9b2b-4b1d-a0eb-05c6a1699cdf": {
-   "sev": 1,
-   "t": "2026-11-08T17:54:52Z"
   },
   "05873bef-2730-488e-b354-9be21724bb41": {
    "sev": 3,
@@ -101,6 +121,10 @@
   "113aa94b-c820-4f37-8b9d-07b3a6e59919": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "125183bb-3fbc-489e-87a1-86b9f9738340": {
+   "sev": 2,
+   "t": "2026-11-22T18:53:55Z"
   },
   "139fdad5-3217-49f2-a81b-80e016130453": {
    "sev": 3,
@@ -281,6 +305,10 @@
   "3e454a61-d8f4-4381-a9a9-2ef5a8dc10fd": {
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
+  },
+  "3f84068c-c7da-4df4-9b9e-cae8ec4aa108": {
+   "sev": 3,
+   "t": "2026-11-22T18:53:55Z"
   },
   "3f92c8e9-ba20-4d2f-bd47-91cc587dea1f": {
    "sev": 3,
@@ -503,8 +531,12 @@
    "t": "2026-11-10T00:52:03Z"
   },
   "7755bc04-27ae-4e3b-ba56-846f23b629dc": {
-   "sev": 2,
-   "t": "2026-11-21T23:28:30Z"
+   "sev": 3,
+   "t": "2026-11-22T18:53:55Z"
+  },
+  "78fa95af-d28b-4b08-a750-c7b96c59a158": {
+   "sev": 3,
+   "t": "2026-11-22T18:53:55Z"
   },
   "7979a028-028b-4298-9634-6d05fd96f121": {
    "sev": 3,
@@ -563,8 +595,8 @@
    "t": "2026-11-09T17:51:03Z"
   },
   "85e687ef-4deb-42ba-aba7-26056895d76a": {
-   "sev": 1,
-   "t": "2026-11-21T18:16:48Z"
+   "sev": 2,
+   "t": "2026-11-22T18:53:55Z"
   },
   "88275213-4490-4d18-a918-0fd32dbe8206": {
    "sev": 2,
@@ -926,6 +958,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "e2a3547c-6203-4013-ad7a-153bd829b551": {
+   "sev": 3,
+   "t": "2026-11-22T18:53:55Z"
+  },
   "e359e77d-f6ee-410d-a3fd-fac7c3ac3057": {
    "sev": 2,
    "t": "2026-11-20T00:45:27Z"
@@ -945,6 +981,10 @@
   "e66dc11c-c555-4f3a-8b05-190684a8bcf3": {
    "sev": 3,
    "t": "2026-11-20T00:54:38Z"
+  },
+  "e69468fd-7c10-4835-afc7-763a903e1e8b": {
+   "sev": 2,
+   "t": "2026-11-22T18:53:55Z"
   },
   "e6ad3567-78b3-4378-9115-3057c3837437": {
    "sev": 2,
@@ -1075,7 +1115,7 @@
  "initialized": true,
  "last_check_day": "2026-11-22",
  "last_digest_slot": "2026-11-22T11",
- "last_run": "2026-11-22T14:52:07Z",
+ "last_run": "2026-11-22T18:53:55Z",
  "scope_version": 3,
  "version": 2
 }
