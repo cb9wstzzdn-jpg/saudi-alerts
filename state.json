@@ -1,5 +1,18 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-23 08:21:56",
+   "id": "a2585b17-441e-4ab1-ba01-8015cf69f6ed",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "Tanker Attacks in Strait of Hormuz Hit Record Highs"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -365,10 +378,6 @@
    "sev": 3,
    "t": "2026-11-10T07:48:10Z"
   },
-  "52aac0c9-7e10-499d-961d-b2d354c7dff4": {
-   "sev": 3,
-   "t": "2026-11-09T07:51:57Z"
-  },
   "53977071-f03b-49c5-92ea-6e3a3796bbd2": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
@@ -676,6 +685,10 @@
   "a1a00cfb-070e-4bda-914b-f88ca6c10657": {
    "sev": 3,
    "t": "2026-11-21T19:43:40Z"
+  },
+  "a2585b17-441e-4ab1-ba01-8015cf69f6ed": {
+   "sev": 2,
+   "t": "2026-11-23T09:43:52Z"
   },
   "a2c7e50e-fe47-4246-9b1a-ce58398cf12b": {
    "sev": 2,
@@ -1118,7 +1131,7 @@
  "initialized": true,
  "last_check_day": "2026-11-23",
  "last_digest_slot": "2026-11-23T03",
- "last_run": "2026-11-23T07:22:08Z",
+ "last_run": "2026-11-23T09:43:52Z",
  "scope_version": 3,
  "version": 2
 }
