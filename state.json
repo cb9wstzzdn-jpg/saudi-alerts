@@ -1,5 +1,30 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 45,
+   "created_at": "2026-11-23 19:48:54",
+   "id": "9eda7525-2682-4bf9-9dbb-5c2f158b7458",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "US F-35 Declares Emergency Near Strait of Hormuz"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 30,
+   "created_at": "2026-11-23 21:40:34",
+   "id": "550b93f6-e922-4706-bd31-25c79dcbba82",
+   "lat": 20,
+   "lng": 45,
+   "location_name": "Middle East",
+   "severity": 2,
+   "title": "USS Theodore Roosevelt Replaces USS George Washington in Middle East"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -172,6 +197,10 @@
   "28248183-7388-4894-91d9-2b835f8b3f7e": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "297ff7e0-3543-4436-8dff-2763ee034a32": {
+   "sev": 3,
+   "t": "2026-11-23T21:44:10Z"
   },
   "2bd160af-e278-4f80-a841-e53ef4c9a0ea": {
    "sev": 2,
@@ -392,6 +421,10 @@
   "54e654c1-3812-4001-9fab-7200f50875e3": {
    "sev": 1,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "550b93f6-e922-4706-bd31-25c79dcbba82": {
+   "sev": 2,
+   "t": "2026-11-23T21:44:10Z"
   },
   "55b7e6e4-f7e8-42b9-b7d8-a7f7b7444faa": {
    "sev": 2,
@@ -677,6 +710,10 @@
    "sev": 3,
    "t": "2026-11-10T00:52:03Z"
   },
+  "9eda7525-2682-4bf9-9dbb-5c2f158b7458": {
+   "sev": 2,
+   "t": "2026-11-23T21:44:10Z"
+  },
   "9eef6839-2167-4b68-a5c1-98b355d95ed7": {
    "sev": 4,
    "t": "2026-11-20T16:29:01Z"
@@ -736,6 +773,10 @@
   "a958aa4c-acc5-43a4-9fd9-86288424913a": {
    "sev": 3,
    "t": "2026-11-19T18:21:24Z"
+  },
+  "a9a35731-8ec4-4e87-99a2-aa66c2e20b7e": {
+   "sev": 3,
+   "t": "2026-11-23T21:44:10Z"
   },
   "ab41c2cd-b736-449c-9a05-6afa1cc421e4": {
    "sev": 3,
@@ -1158,7 +1199,7 @@
  "initialized": true,
  "last_check_day": "2026-11-23",
  "last_digest_slot": "2026-11-23T19",
- "last_run": "2026-11-23T19:24:30Z",
+ "last_run": "2026-11-23T21:44:10Z",
  "scope_version": 3,
  "version": 2
 }
