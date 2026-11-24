@@ -1,5 +1,30 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "KW",
+   "category": "political",
+   "confidence": 55,
+   "created_at": "2026-11-24 16:02:45",
+   "id": "453c12cf-1bcc-4397-9b0b-9d9cd2c0e877",
+   "lat": 29.31,
+   "lng": 47.48,
+   "location_name": "Kuwait",
+   "severity": 2,
+   "title": "KOTC Drops Death Compensation Pledge for Crews"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-24 16:14:05",
+   "id": "a5d90d13-3659-45ad-a649-708ab24a4db3",
+   "lat": 24.688,
+   "lng": 46.722,
+   "location_name": "Riyadh, Saudi Arabia",
+   "severity": 2,
+   "title": "UAE Military Cargo Plane Visits Riyadh After Nevatim"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -341,6 +366,10 @@
    "sev": 2,
    "t": "2026-11-21T03:33:51Z"
   },
+  "453c12cf-1bcc-4397-9b0b-9d9cd2c0e877": {
+   "sev": 2,
+   "t": "2026-11-24T16:23:45Z"
+  },
   "45c85b67-f2d1-4a3f-9450-8ce858c3bd48": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
@@ -484,6 +513,10 @@
   "628b162a-dbbb-43e5-bc8f-e0b279bc0e62": {
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
+  },
+  "63286f5a-c333-4faa-b685-f1928a714ef3": {
+   "sev": 3,
+   "t": "2026-11-24T16:23:45Z"
   },
   "63c584ec-2a91-434e-bbf8-3111c038b702": {
    "sev": 2,
@@ -764,6 +797,10 @@
   "a56cad96-926b-4473-8ca7-348edc080bb0": {
    "sev": 3,
    "t": "2026-11-21T03:33:51Z"
+  },
+  "a5d90d13-3659-45ad-a649-708ab24a4db3": {
+   "sev": 2,
+   "t": "2026-11-24T16:23:45Z"
   },
   "a610394c-a0f9-422d-a40f-1cc11aeb701d": {
    "sev": 3,
@@ -1141,10 +1178,6 @@
    "sev": 3,
    "t": "2026-11-23T19:24:30Z"
   },
-  "ee439f12-c919-417d-aeaf-6d97d22d70d1": {
-   "sev": 1,
-   "t": "2026-11-10T15:48:54Z"
-  },
   "ef9c2329-0f09-43cd-a81f-7109f2d1eba0": {
    "sev": 3,
    "t": "2026-11-19T18:21:24Z"
@@ -1222,7 +1255,7 @@
  "initialized": true,
  "last_check_day": "2026-11-24",
  "last_digest_slot": "2026-11-24T11",
- "last_run": "2026-11-24T15:05:15Z",
+ "last_run": "2026-11-24T16:23:45Z",
  "scope_version": 3,
  "version": 2
 }
