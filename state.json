@@ -1,5 +1,30 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "AE",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-25 08:10:50",
+   "id": "fb0bcf28-294f-4c9e-9326-9b5ac7663d2e",
+   "lat": 24.451,
+   "lng": 54.397,
+   "location_name": "Abu Dhabi, United Arab Emirates",
+   "severity": 2,
+   "title": "Etihad Flight to Tel Aviv Returns to Abu Dhabi Amid Saudi-Houthi Crisis"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 55,
+   "created_at": "2026-11-25 08:16:38",
+   "id": "60d8b0cb-a150-4b99-9ed6-0aed5b0fc6a7",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Iran Says It Can Withstand US Naval Blockade"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -256,6 +281,10 @@
   "3142d4e1-03e4-43ef-97dc-7d40e115012d": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "3227a3d4-2393-469a-a80a-398dc68396e2": {
+   "sev": 3,
+   "t": "2026-11-25T09:45:29Z"
   },
   "326bc084-c869-4d77-aea0-aa4ebedf2e6b": {
    "sev": 3,
@@ -529,6 +558,10 @@
    "sev": 3,
    "t": "2026-11-21T23:28:30Z"
   },
+  "60d8b0cb-a150-4b99-9ed6-0aed5b0fc6a7": {
+   "sev": 2,
+   "t": "2026-11-25T09:45:29Z"
+  },
   "62674b1c-723d-4211-8d5c-485db872ac56": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -584,6 +617,10 @@
   "6bd267f7-3028-4195-b9d0-e5a4db67596a": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "6cc003af-89a6-4106-94e3-a0674204cc9c": {
+   "sev": 3,
+   "t": "2026-11-25T09:45:29Z"
   },
   "72238d57-e803-44f0-a073-a05d5afc1d93": {
    "sev": 3,
@@ -1085,6 +1122,10 @@
    "sev": 2,
    "t": "2026-11-19T09:12:51Z"
   },
+  "d700b5fd-d1d2-40f7-b30c-c11d4109fcaa": {
+   "sev": 3,
+   "t": "2026-11-25T09:45:29Z"
+  },
   "d7f013ec-dbc8-4e3c-9f45-648df54e8abc": {
    "sev": 3,
    "t": "2026-11-21T11:44:24Z"
@@ -1301,16 +1342,24 @@
    "sev": 2,
    "t": "2026-11-18T15:37:16Z"
   },
+  "fb0bcf28-294f-4c9e-9326-9b5ac7663d2e": {
+   "sev": 2,
+   "t": "2026-11-25T09:45:29Z"
+  },
   "fb451be2-7f2e-4e1d-a61d-5a55b7477fcb": {
    "sev": 3,
    "t": "2026-11-21T19:43:40Z"
+  },
+  "fcd3156a-26d3-4981-9612-b86b6be53c41": {
+   "sev": 3,
+   "t": "2026-11-25T09:45:29Z"
   }
  },
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-25",
  "last_digest_slot": "2026-11-25T03",
- "last_run": "2026-11-25T06:27:22Z",
+ "last_run": "2026-11-25T09:45:29Z",
  "scope_version": 3,
  "version": 2
 }
