@@ -1,30 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "AE",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-25 08:10:50",
-   "id": "fb0bcf28-294f-4c9e-9326-9b5ac7663d2e",
-   "lat": 24.451,
-   "lng": 54.397,
-   "location_name": "Abu Dhabi, United Arab Emirates",
-   "severity": 2,
-   "title": "Etihad Flight to Tel Aviv Returns to Abu Dhabi Amid Saudi-Houthi Crisis"
-  },
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 55,
-   "created_at": "2026-11-25 08:16:38",
-   "id": "60d8b0cb-a150-4b99-9ed6-0aed5b0fc6a7",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 2,
-   "title": "Iran Says It Can Withstand US Naval Blockade"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -74,6 +49,10 @@
    "sev": 2,
    "t": "2026-11-23T19:24:30Z"
   },
+  "07f516b3-dc2c-4cfb-be8b-1bb6e596a107": {
+   "sev": 2,
+   "t": "2026-11-25T17:32:42Z"
+  },
   "07f7198d-9938-4983-b7ef-1a99d6e610b7": {
    "sev": 3,
    "t": "2026-11-13T03:39:04Z"
@@ -113,6 +92,10 @@
   "0fcdab24-7457-441b-8b01-fbbab5d47011": {
    "sev": 2,
    "t": "2026-11-18T15:37:16Z"
+  },
+  "107b5c62-0a03-482a-9b8e-e111e903e670": {
+   "sev": 1,
+   "t": "2026-11-25T17:32:42Z"
   },
   "113aa94b-c820-4f37-8b9d-07b3a6e59919": {
    "sev": 3,
@@ -270,6 +253,10 @@
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
   },
+  "2f2e69bb-22da-4cdd-9e27-a99b84408201": {
+   "sev": 2,
+   "t": "2026-11-25T17:32:42Z"
+  },
   "3048abfa-19ff-49ae-a3c9-cb17b45bb0ac": {
    "sev": 3,
    "t": "2026-11-18T15:37:16Z"
@@ -277,6 +264,10 @@
   "3053f22b-1c0c-40ff-ab93-4fae2936cb02": {
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "30ab6a2f-14ca-4a1e-9a63-cb6f02e90aa9": {
+   "sev": 3,
+   "t": "2026-11-25T17:32:42Z"
   },
   "3142d4e1-03e4-43ef-97dc-7d40e115012d": {
    "sev": 3,
@@ -306,13 +297,13 @@
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
   },
-  "345c41cb-13d7-4d0e-b2c2-2d917524fd1b": {
-   "sev": 3,
-   "t": "2026-11-11T15:38:40Z"
-  },
   "367aefdb-583b-4959-8ff1-bcb61ff8c762": {
    "sev": 2,
    "t": "2026-11-18T18:53:28Z"
+  },
+  "3685ff75-8c95-4a87-b2a4-2bee62ffbcd0": {
+   "sev": 1,
+   "t": "2026-11-25T17:32:42Z"
   },
   "378113b9-70d6-4b82-9bad-89e416493d78": {
    "sev": 3,
@@ -378,6 +369,10 @@
    "sev": 2,
    "t": "2026-11-18T10:19:37Z"
   },
+  "42362ee7-3e6c-44e3-bfbc-4e69a40cb998": {
+   "sev": 2,
+   "t": "2026-11-25T17:32:42Z"
+  },
   "4275f658-faf2-4ef0-af60-2e1c6d213bca": {
    "sev": 3,
    "t": "2026-11-18T15:37:16Z"
@@ -410,6 +405,10 @@
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
   },
+  "4692838d-939b-4e44-a1ac-59dcd0ef931b": {
+   "sev": 2,
+   "t": "2026-11-25T17:32:42Z"
+  },
   "47d1e151-a09c-4036-bf0e-74e20cb9e7f0": {
    "sev": 3,
    "t": "2026-11-24T23:51:52Z"
@@ -433,10 +432,6 @@
   "4aee61c8-b155-4d37-8ba4-cddd948d112a": {
    "sev": 2,
    "t": "2026-11-23T07:22:08Z"
-  },
-  "4b6bd4f0-fd38-49bb-b71b-037663cde7de": {
-   "sev": 3,
-   "t": "2026-11-11T15:38:40Z"
   },
   "4c252cae-ea99-470d-b5f1-bccaa749f8be": {
    "sev": 3,
@@ -798,10 +793,6 @@
    "sev": 2,
    "t": "2026-11-18T12:59:29Z"
   },
-  "9b2fb3b3-ecd7-46e2-923e-9c61eb1db607": {
-   "sev": 2,
-   "t": "2026-11-11T15:38:40Z"
-  },
   "9bb7d1d0-8c5b-43ee-b035-d827a2a73c60": {
    "sev": 2,
    "t": "2026-11-18T15:37:16Z"
@@ -873,6 +864,10 @@
   "a66e0cfe-3b4a-488a-991e-4d1fe4a52955": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "a6f8830e-9e70-4a71-91fe-63b28f076d32": {
+   "sev": 3,
+   "t": "2026-11-25T17:32:42Z"
   },
   "a958aa4c-acc5-43a4-9fd9-86288424913a": {
    "sev": 3,
@@ -1358,8 +1353,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-25",
- "last_digest_slot": "2026-11-25T03",
- "last_run": "2026-11-25T09:45:29Z",
+ "last_digest_slot": "2026-11-25T11",
+ "last_run": "2026-11-25T17:32:42Z",
  "scope_version": 3,
  "version": 2
 }
