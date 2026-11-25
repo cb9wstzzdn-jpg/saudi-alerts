@@ -1300,9 +1300,9 @@
  },
  "fail_count": 0,
  "initialized": true,
- "last_check_day": "2026-11-24",
+ "last_check_day": "2026-11-25",
  "last_digest_slot": "2026-11-24T19",
- "last_run": "2026-11-24T23:51:52Z",
+ "last_run": "2026-11-25T01:01:50Z",
  "scope_version": 3,
  "version": 2
 }
