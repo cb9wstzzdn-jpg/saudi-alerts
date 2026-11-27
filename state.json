@@ -1,5 +1,90 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-26 22:22:31",
+   "id": "29d7c1e1-4e04-4681-a19d-940a212e0764",
+   "lat": 18.2,
+   "lng": 42.5,
+   "location_name": "Southern Region, Saudi Arabia",
+   "severity": 2,
+   "title": "Saudi Coalition Intercepts Houthi Drone Over Southern Region"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-26 23:01:08",
+   "id": "e40f3c9e-6dab-4e41-af19-f9cdf472ceb4",
+   "lat": 26.8,
+   "lng": 56,
+   "location_name": "Qeshm Island, Hormozgan Province, Iran",
+   "severity": 2,
+   "title": "Explosions Reported on Qeshm Island, Iran"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 55,
+   "created_at": "2026-11-26 23:25:43",
+   "id": "937243ad-6bc1-4d35-8f61-ac10e915fbec",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Rheinmetall Condemns Iranian Strike Killing Two Technicians"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-26 23:27:56",
+   "id": "d4c8639a-4cb2-402a-9b05-c24b56368f53",
+   "lat": 24.0628,
+   "lng": 47.5815,
+   "location_name": "Prince Sultan Air Base, Saudi Arabia",
+   "severity": 1,
+   "title": "UAE Cargo Plane Flies From Turkey to Saudi Air Base"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-27 00:06:42",
+   "id": "bbeb0bd4-a531-412b-b0bd-ab4c7091c6bf",
+   "lat": 23.89,
+   "lng": 45.08,
+   "location_name": "Saudi Arabia",
+   "severity": 2,
+   "title": "Turkish A400M Delivers Military Equipment From Pakistan to Saudi Arabia"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-27 00:12:46",
+   "id": "e1417ad9-7ec7-4667-9ff7-947118a64497",
+   "lat": 27.1,
+   "lng": 56.5,
+   "location_name": "Kuhestak, Hormozgan Province, Iran",
+   "severity": 2,
+   "title": "US Fighter Jets Reported Airborne Over Kuhestak, Iran"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-27 00:19:48",
+   "id": "6dc8a069-2bf4-43d8-bbc5-cd55c47b8e50",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "Iran FM Calls Deadly Kuwait Attack 'Suspicious'"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -220,6 +305,10 @@
   "297ff7e0-3543-4436-8dff-2763ee034a32": {
    "sev": 3,
    "t": "2026-11-23T21:44:10Z"
+  },
+  "29d7c1e1-4e04-4681-a19d-940a212e0764": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
   },
   "2a6f6292-cee4-4dbc-9979-dd2c0db4ca5b": {
    "sev": 2,
@@ -653,13 +742,13 @@
    "sev": 3,
    "t": "2026-11-26T09:30:34Z"
   },
+  "6dc8a069-2bf4-43d8-bbc5-cd55c47b8e50": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "7124d02a-fee2-42f4-9f34-786b6788f761": {
    "sev": 3,
    "t": "2026-11-26T09:30:34Z"
-  },
-  "72238d57-e803-44f0-a073-a05d5afc1d93": {
-   "sev": 3,
-   "t": "2026-11-12T23:50:19Z"
   },
   "731b0093-5078-45a8-9ff0-35c57f74bd2b": {
    "sev": 3,
@@ -837,6 +926,10 @@
    "sev": 2,
    "t": "2026-11-20T22:47:16Z"
   },
+  "937243ad-6bc1-4d35-8f61-ac10e915fbec": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "93ae17c5-59f4-4173-b393-673755629838": {
    "sev": 3,
    "t": "2026-11-23T19:24:30Z"
@@ -849,6 +942,10 @@
    "sev": 3,
    "t": "2026-11-18T15:37:16Z"
   },
+  "95499305-4d16-4d3c-a110-90fa5dad59a9": {
+   "sev": 3,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "96eb1094-b909-4734-a464-c59b80ffe558": {
    "sev": 3,
    "t": "2026-11-24T15:05:15Z"
@@ -860,10 +957,6 @@
   "9768055b-5824-44f4-b27b-c4ec04100093": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
-  },
-  "97e302a5-55e8-44f0-9473-9a7f6267d328": {
-   "sev": 3,
-   "t": "2026-11-12T23:50:19Z"
   },
   "9825f985-9a75-4ab0-aec2-43ad1d6868a2": {
    "sev": 3,
@@ -884,6 +977,10 @@
   "9c69dd7a-ca2b-46b1-bd8b-1eb317b17a49": {
    "sev": 3,
    "t": "2026-11-21T18:16:48Z"
+  },
+  "9d6955c7-4d8e-47e3-b086-a12230d6de5e": {
+   "sev": 3,
+   "t": "2026-11-27T02:18:08Z"
   },
   "9eda7525-2682-4bf9-9dbb-5c2f158b7458": {
    "sev": 2,
@@ -965,9 +1062,17 @@
    "sev": 3,
    "t": "2026-11-23T21:44:10Z"
   },
+  "aa7eed9c-f1c0-49cd-8b7a-73e8eecf053a": {
+   "sev": 3,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "ab41c2cd-b736-449c-9a05-6afa1cc421e4": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "ac65581b-21c8-4bfc-b990-5f93aea458ae": {
+   "sev": 3,
+   "t": "2026-11-27T02:18:08Z"
   },
   "ac66f2fb-9b04-4863-a563-d85d247ee897": {
    "sev": 2,
@@ -1068,6 +1173,10 @@
   "bb2294ae-383f-4bea-bd8d-75a9f57eac75": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "bbeb0bd4-a531-412b-b0bd-ab4c7091c6bf": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
   },
   "bcc0c5fb-83e7-4321-937e-d43dd01de160": {
    "sev": 3,
@@ -1217,6 +1326,10 @@
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
   },
+  "d4c8639a-4cb2-402a-9b05-c24b56368f53": {
+   "sev": 1,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "d6f7abb0-61df-4da9-b36f-8d25c18c5247": {
    "sev": 2,
    "t": "2026-11-19T09:12:51Z"
@@ -1285,6 +1398,10 @@
    "sev": 2,
    "t": "2026-11-18T19:27:03Z"
   },
+  "e1417ad9-7ec7-4667-9ff7-947118a64497": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
+  },
   "e180d339-94e3-43be-a367-7d0ee7bb41c6": {
    "sev": 2,
    "t": "2026-11-21T23:28:30Z"
@@ -1304,6 +1421,10 @@
   "e37b782a-532a-4ee8-a5df-01f7a42255f3": {
    "sev": 2,
    "t": "2026-11-24T23:51:52Z"
+  },
+  "e40f3c9e-6dab-4e41-af19-f9cdf472ceb4": {
+   "sev": 2,
+   "t": "2026-11-27T02:18:08Z"
   },
   "e41ef774-4221-4a96-bc16-d0929cfc0e7d": {
    "sev": 3,
@@ -1352,6 +1473,10 @@
   "e97f2a9f-7a7d-4e5e-9e35-f633a28b769e": {
    "sev": 1,
    "t": "2026-11-24T23:51:52Z"
+  },
+  "e9f0a2c0-dd89-42b7-be93-49678d0c5aca": {
+   "sev": 3,
+   "t": "2026-11-27T02:18:08Z"
   },
   "ea13a483-bdb7-415d-b1f6-0455f02878a8": {
    "sev": 2,
@@ -1472,9 +1597,9 @@
  },
  "fail_count": 0,
  "initialized": true,
- "last_check_day": "2026-11-26",
+ "last_check_day": "2026-11-27",
  "last_digest_slot": "2026-11-26T19",
- "last_run": "2026-11-26T20:29:47Z",
+ "last_run": "2026-11-27T02:18:08Z",
  "scope_version": 3,
  "version": 2
 }
