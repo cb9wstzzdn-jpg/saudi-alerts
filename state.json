@@ -1,90 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "SA",
-   "category": "conflict",
-   "confidence": 55,
-   "created_at": "2026-11-26 22:22:31",
-   "id": "29d7c1e1-4e04-4681-a19d-940a212e0764",
-   "lat": 18.2,
-   "lng": 42.5,
-   "location_name": "Southern Region, Saudi Arabia",
-   "severity": 2,
-   "title": "Saudi Coalition Intercepts Houthi Drone Over Southern Region"
-  },
-  {
-   "_cc": "IR",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-26 23:01:08",
-   "id": "e40f3c9e-6dab-4e41-af19-f9cdf472ceb4",
-   "lat": 26.8,
-   "lng": 56,
-   "location_name": "Qeshm Island, Hormozgan Province, Iran",
-   "severity": 2,
-   "title": "Explosions Reported on Qeshm Island, Iran"
-  },
-  {
-   "_cc": "IR",
-   "category": "conflict",
-   "confidence": 55,
-   "created_at": "2026-11-26 23:25:43",
-   "id": "937243ad-6bc1-4d35-8f61-ac10e915fbec",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 2,
-   "title": "Rheinmetall Condemns Iranian Strike Killing Two Technicians"
-  },
-  {
-   "_cc": "SA",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-26 23:27:56",
-   "id": "d4c8639a-4cb2-402a-9b05-c24b56368f53",
-   "lat": 24.0628,
-   "lng": 47.5815,
-   "location_name": "Prince Sultan Air Base, Saudi Arabia",
-   "severity": 1,
-   "title": "UAE Cargo Plane Flies From Turkey to Saudi Air Base"
-  },
-  {
-   "_cc": "SA",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-27 00:06:42",
-   "id": "bbeb0bd4-a531-412b-b0bd-ab4c7091c6bf",
-   "lat": 23.89,
-   "lng": 45.08,
-   "location_name": "Saudi Arabia",
-   "severity": 2,
-   "title": "Turkish A400M Delivers Military Equipment From Pakistan to Saudi Arabia"
-  },
-  {
-   "_cc": "IR",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-27 00:12:46",
-   "id": "e1417ad9-7ec7-4667-9ff7-947118a64497",
-   "lat": 27.1,
-   "lng": 56.5,
-   "location_name": "Kuhestak, Hormozgan Province, Iran",
-   "severity": 2,
-   "title": "US Fighter Jets Reported Airborne Over Kuhestak, Iran"
-  },
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 30,
-   "created_at": "2026-11-27 00:19:48",
-   "id": "6dc8a069-2bf4-43d8-bbc5-cd55c47b8e50",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 2,
-   "title": "Iran FM Calls Deadly Kuwait Attack 'Suspicious'"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -1598,8 +1513,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-27",
- "last_digest_slot": "2026-11-26T19",
- "last_run": "2026-11-27T02:18:08Z",
+ "last_digest_slot": "2026-11-27T03",
+ "last_run": "2026-11-27T03:13:15Z",
  "scope_version": 3,
  "version": 2
 }
