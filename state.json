@@ -1,5 +1,78 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-27 22:36:18",
+   "id": "079b96a1-71b1-4628-a406-3183c297c2e3",
+   "lat": 30.763,
+   "lng": 49.702,
+   "location_name": "Omidiyeh, Iran",
+   "severity": 2,
+   "title": "Multiple Ballistic Missile Launches Reported in Omidiyeh, Iran"
+  },
+  {
+   "_cc": "IR",
+   "category": "political",
+   "confidence": 15,
+   "created_at": "2026-11-27 23:10:38",
+   "id": "b412dddb-2653-4294-9fd8-5ade556b61f7",
+   "lat": 32.43,
+   "lng": 53.69,
+   "location_name": "Iran",
+   "severity": 2,
+   "title": "IRGC Officials Vow to Break US Blockade on Strait of Hormuz"
+  },
+  {
+   "_cc": "GW",
+   "category": "political",
+   "confidence": 55,
+   "created_at": "2026-11-28 00:06:03",
+   "id": "1c924490-0274-4b23-a636-198f095378e0",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "US Central Command Refutes Iranian Commander's Claims"
+  },
+  {
+   "_cc": "KW",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-28 00:07:39",
+   "id": "94647697-324e-4b1b-8427-0bf7ef431978",
+   "lat": 29.31,
+   "lng": 47.48,
+   "location_name": "Kuwait",
+   "severity": 2,
+   "title": "Italy Says Drone in Deadly Kuwait Attack Was Made in Iran"
+  },
+  {
+   "_cc": "YE",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 00:47:13",
+   "id": "ab42166e-0b2e-452d-b854-0171c0e0f9cf",
+   "lat": 15.463,
+   "lng": 45.326,
+   "location_name": "Marib, Yemen",
+   "severity": 2,
+   "title": "Ansarallah Drone Shot Down Near Marib"
+  },
+  {
+   "_cc": "BH",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 02:13:33",
+   "id": "672b1156-a8ba-4125-9413-06ad51c7f90f",
+   "lat": 26.07,
+   "lng": 50.56,
+   "location_name": "Bahrain",
+   "severity": 2,
+   "title": "US Base in Bahrain Remains Low-Staffed Months After Iranian Strikes"
+  }
+ ],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -61,6 +134,10 @@
    "sev": 2,
    "t": "2026-11-23T19:24:30Z"
   },
+  "079b96a1-71b1-4628-a406-3183c297c2e3": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "07f516b3-dc2c-4cfb-be8b-1bb6e596a107": {
    "sev": 2,
    "t": "2026-11-25T17:32:42Z"
@@ -104,6 +181,10 @@
   "107b5c62-0a03-482a-9b8e-e111e903e670": {
    "sev": 2,
    "t": "2026-11-25T19:37:38Z"
+  },
+  "11370bae-f7c0-4c59-b283-2a4938978ec8": {
+   "sev": 3,
+   "t": "2026-11-28T02:29:01Z"
   },
   "113aa94b-c820-4f37-8b9d-07b3a6e59919": {
    "sev": 3,
@@ -153,6 +234,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "1ba4613e-46ff-497e-b659-02419540e6ee": {
+   "sev": 3,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "1c0365e7-ade6-40dd-896f-20eab9e95996": {
    "sev": 2,
    "t": "2026-11-21T18:16:48Z"
@@ -160,6 +245,10 @@
   "1c65f4c2-76e4-4ccd-ae5c-d30bbaba63a8": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
+  },
+  "1c924490-0274-4b23-a636-198f095378e0": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
   },
   "1cd3f48a-6d25-4399-9fe6-bd545f78d58f": {
    "sev": 2,
@@ -184,10 +273,6 @@
   "21f29d62-5e30-46ef-9c5d-5658c80acde9": {
    "sev": 2,
    "t": "2026-11-24T23:51:52Z"
-  },
-  "227ab746-1be7-49d1-b064-f43c4e88479e": {
-   "sev": 2,
-   "t": "2026-11-13T23:51:44Z"
   },
   "22c3952e-42ce-4dba-8f74-4ab6a93a2f76": {
    "sev": 3,
@@ -489,10 +574,6 @@
    "sev": 3,
    "t": "2026-11-22T03:25:26Z"
   },
-  "5039b5fb-1246-4711-a576-d90b6678a8ad": {
-   "sev": 3,
-   "t": "2026-11-13T23:51:44Z"
-  },
   "5075c4c1-4293-4e8e-99cc-2c63c6ddff50": {
    "sev": 2,
    "t": "2026-11-23T19:24:30Z"
@@ -649,6 +730,10 @@
    "sev": 2,
    "t": "2026-11-19T01:25:09Z"
   },
+  "672b1156-a8ba-4125-9413-06ad51c7f90f": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "67fedef2-43ce-413b-ac47-5165fee3358d": {
    "sev": 3,
    "t": "2026-11-26T19:16:10Z"
@@ -736,6 +821,10 @@
   "7845e669-efb6-4534-b247-a0276e541a27": {
    "sev": 3,
    "t": "2026-11-27T19:53:34Z"
+  },
+  "78b7dc77-fc08-4f23-9c00-5024c6cfeab4": {
+   "sev": 3,
+   "t": "2026-11-28T02:29:01Z"
   },
   "78fa95af-d28b-4b08-a750-c7b96c59a158": {
    "sev": 3,
@@ -825,6 +914,10 @@
    "sev": 3,
    "t": "2026-11-26T01:08:26Z"
   },
+  "86fed20b-2ed8-4516-b2f2-d2b7b9d9c72d": {
+   "sev": 3,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "88275213-4490-4d18-a918-0fd32dbe8206": {
    "sev": 2,
    "t": "2026-11-20T07:50:04Z"
@@ -884,6 +977,10 @@
   "943dd27a-753f-4c1e-b9ae-d746eaeffd86": {
    "sev": 3,
    "t": "2026-11-21T19:43:40Z"
+  },
+  "94647697-324e-4b1b-8427-0bf7ef431978": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
   },
   "9513ab7b-49a7-4165-b08c-aa3a27e0e78c": {
    "sev": 3,
@@ -1021,6 +1118,10 @@
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
   },
+  "ab42166e-0b2e-452d-b854-0171c0e0f9cf": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "ac65581b-21c8-4bfc-b990-5f93aea458ae": {
    "sev": 3,
    "t": "2026-11-27T02:18:08Z"
@@ -1065,6 +1166,10 @@
    "sev": 3,
    "t": "2026-11-22T11:51:41Z"
   },
+  "b412dddb-2653-4294-9fd8-5ade556b61f7": {
+   "sev": 2,
+   "t": "2026-11-28T02:29:01Z"
+  },
   "b431822b-39d1-478c-a280-7b9d046b3bca": {
    "sev": 3,
    "t": "2026-11-18T12:59:29Z"
@@ -1080,10 +1185,6 @@
   "b5b176b3-66a6-46a0-83c3-518c834a46b1": {
    "sev": 3,
    "t": "2026-11-24T04:22:46Z"
-  },
-  "b5b9ef21-ebb2-44a2-87fc-a4a21fb6a48b": {
-   "sev": 1,
-   "t": "2026-11-13T23:51:44Z"
   },
   "b730fc07-960f-42e9-9c39-4d45e59a7286": {
    "sev": 2,
@@ -1421,10 +1522,6 @@
    "sev": 1,
    "t": "2026-11-18T15:37:16Z"
   },
-  "e8472a88-89fc-4b52-b216-271ad87c2b91": {
-   "sev": 2,
-   "t": "2026-11-13T23:51:44Z"
-  },
   "e88a7083-9646-44ef-b9d3-1ae19e6ea92d": {
    "sev": 2,
    "t": "2026-11-18T18:53:28Z"
@@ -1468,10 +1565,6 @@
   "ed135d41-204e-44b3-a074-31e9c50eca98": {
    "sev": 2,
    "t": "2026-11-26T19:16:10Z"
-  },
-  "ed76f132-e554-4a11-bd3b-bb5074e82a45": {
-   "sev": 3,
-   "t": "2026-11-13T23:51:44Z"
   },
   "ee05efa3-c475-4449-a267-91bc9972ae89": {
    "sev": 3,
@@ -1572,9 +1665,9 @@
  },
  "fail_count": 0,
  "initialized": true,
- "last_check_day": "2026-11-27",
+ "last_check_day": "2026-11-28",
  "last_digest_slot": "2026-11-27T19",
- "last_run": "2026-11-27T21:41:17Z",
+ "last_run": "2026-11-28T02:29:01Z",
  "scope_version": 3,
  "version": 2
 }
