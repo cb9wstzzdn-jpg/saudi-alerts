@@ -1,5 +1,114 @@
 {
- "digest_queue": [],
+ "digest_queue": [
+  {
+   "_cc": "KW",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-28 12:37:34",
+   "id": "7a7a9785-2b14-4432-80d3-ff2acb7ce178",
+   "lat": 29.31,
+   "lng": 47.48,
+   "location_name": "Kuwait",
+   "severity": 2,
+   "title": "Pakistani PM Condemns Drone Attack on Kuwait, Vows Support for Injured"
+  },
+  {
+   "_cc": "KW",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-28 14:01:43",
+   "id": "624f3566-c51d-4d82-9fe7-b61ed5820d6e",
+   "lat": 29.31,
+   "lng": 47.48,
+   "location_name": "Kuwait",
+   "severity": 2,
+   "title": "Iran Points to Europe's War Role After Italians Killed in Kuwait Strike"
+  },
+  {
+   "_cc": "KW",
+   "category": "political",
+   "confidence": 30,
+   "created_at": "2026-11-28 14:29:33",
+   "id": "7b7a01ca-537e-4911-87cb-400860bc4db7",
+   "lat": 29.31,
+   "lng": 47.48,
+   "location_name": "Kuwait",
+   "severity": 2,
+   "title": "Iranian Adviser Accuses Ukraine of Kuwait Drone False Flag"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 15:15:50",
+   "id": "49957d1c-3549-440b-9982-7701144d23f4",
+   "lat": 24.688,
+   "lng": 46.722,
+   "location_name": "Riyadh, Saudi Arabia",
+   "severity": 2,
+   "title": "Riyadh Airspace Disrupted Again Amid Possible Airport Threat"
+  },
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 45,
+   "created_at": "2026-11-28 15:28:47",
+   "id": "69cbb218-51e9-426a-a540-8d1701d618bb",
+   "lat": 26.5,
+   "lng": 56.3,
+   "location_name": "Strait of Hormuz",
+   "severity": 2,
+   "title": "Iranian Army Downs Reconnaissance Drone Over Strait of Hormuz"
+  },
+  {
+   "_cc": "IR",
+   "category": "conflict",
+   "confidence": 45,
+   "created_at": "2026-11-28 15:51:15",
+   "id": "c4d4c7e3-e7b6-4fe0-a78c-d5c62d6d19a0",
+   "lat": 25.645,
+   "lng": 57.776,
+   "location_name": "Bandar-e-Jask, Hormozgan Province, Iran",
+   "severity": 2,
+   "title": "Anti-Aircraft Fire Reported in Bandar-e-Jask, Iran"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 16:08:52",
+   "id": "cfc53724-cc38-4534-9156-20b6a3391d60",
+   "lat": 16.889,
+   "lng": 42.551,
+   "location_name": "Jazan, Saudi Arabia",
+   "severity": 2,
+   "title": "Smoke Rises at Jazan Oil Refinery, Saudi Arabia"
+  },
+  {
+   "_cc": "SA",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 16:40:13",
+   "id": "515d0efb-ec5c-40bf-b5f9-7e966eadfcf3",
+   "lat": 16.9,
+   "lng": 42.55,
+   "location_name": "Off Jizan, Saudi Arabia",
+   "severity": 2,
+   "title": "Ansarallah Shoots Down Saudi Scan Eagle Drone Off Jizan"
+  },
+  {
+   "_cc": "GW",
+   "category": "conflict",
+   "confidence": 15,
+   "created_at": "2026-11-28 17:53:09",
+   "id": "2f1edc45-e7c6-43e8-b239-80c3a4f9b6a9",
+   "lat": 26.5,
+   "lng": 51.5,
+   "location_name": "Central Command AOR, Persian Gulf",
+   "severity": 2,
+   "title": "82nd Airborne Aviation Elements Operate From USS Miguel Keith in CENTCOM"
+  }
+ ],
  "events": {
   "00b91872-ae6d-4373-a7d0-cf39b98c439c": {
    "sev": 2,
@@ -285,6 +394,10 @@
    "sev": 3,
    "t": "2026-11-18T15:37:16Z"
   },
+  "2f1edc45-e7c6-43e8-b239-80c3a4f9b6a9": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
   "2f2a5fc1-2988-4c05-a85e-e6dea1f0bb91": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -340,6 +453,10 @@
   "34454675-5fc0-4416-b7ef-8e4bcfd628e4": {
    "sev": 3,
    "t": "2026-11-20T16:29:01Z"
+  },
+  "3639f0a8-5d09-4a2b-a33e-5fa2f9555ade": {
+   "sev": 3,
+   "t": "2026-11-28T18:33:07Z"
   },
   "367aefdb-583b-4959-8ff1-bcb61ff8c762": {
    "sev": 2,
@@ -477,6 +594,10 @@
    "sev": 1,
    "t": "2026-11-23T19:24:30Z"
   },
+  "49957d1c-3549-440b-9982-7701144d23f4": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
   "49a47845-ce04-449b-b9c4-e93c7b8ce7bd": {
    "sev": 3,
    "t": "2026-11-24T23:51:52Z"
@@ -517,6 +638,10 @@
    "sev": 2,
    "t": "2026-11-18T15:37:16Z"
   },
+  "515d0efb-ec5c-40bf-b5f9-7e966eadfcf3": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
   "518b5820-83d7-4dc4-a1f9-7f1c54823e8a": {
    "sev": 2,
    "t": "2026-11-24T15:05:15Z"
@@ -556,6 +681,10 @@
   "55b7e6e4-f7e8-42b9-b7d8-a7f7b7444faa": {
    "sev": 2,
    "t": "2026-11-23T19:24:30Z"
+  },
+  "55d16d4e-548f-476e-acd0-7e0bdda2e2fb": {
+   "sev": 3,
+   "t": "2026-11-28T18:33:07Z"
   },
   "57b4bfeb-95e0-4b6b-89b8-91c8c3eacfc4": {
    "sev": 3,
@@ -621,6 +750,10 @@
    "sev": 2,
    "t": "2026-11-25T09:45:29Z"
   },
+  "624f3566-c51d-4d82-9fe7-b61ed5820d6e": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
   "62674b1c-723d-4211-8d5c-485db872ac56": {
    "sev": 2,
    "t": "2026-11-20T16:29:01Z"
@@ -680,6 +813,10 @@
   "69965616-2068-4dd6-b92f-cd5f848c6fc7": {
    "sev": 3,
    "t": "2026-11-23T01:34:30Z"
+  },
+  "69cbb218-51e9-426a-a540-8d1701d618bb": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
   },
   "6bd267f7-3028-4195-b9d0-e5a4db67596a": {
    "sev": 3,
@@ -772,6 +909,18 @@
   "7979a028-028b-4298-9634-6d05fd96f121": {
    "sev": 3,
    "t": "2026-11-21T23:28:30Z"
+  },
+  "7a7a9785-2b14-4432-80d3-ff2acb7ce178": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
+  "7b413d6a-f2df-4f2a-bbcc-94faf7f7631b": {
+   "sev": 3,
+   "t": "2026-11-28T18:33:07Z"
+  },
+  "7b7a01ca-537e-4911-87cb-400860bc4db7": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
   },
   "7c4b6dfa-3d36-4ac9-afde-f79fab9a9448": {
    "sev": 3,
@@ -868,6 +1017,10 @@
   "8af2348c-dc48-4d1d-a747-0068443b5d85": {
    "sev": 2,
    "t": "2026-11-26T19:16:10Z"
+  },
+  "8bd1e671-8159-4574-be4a-de4e318892f9": {
+   "sev": 3,
+   "t": "2026-11-28T18:33:07Z"
   },
   "8cd14bce-cbe8-423d-8783-211b398ad1e7": {
    "sev": 2,
@@ -1012,6 +1165,10 @@
   "a3a1e9e8-11f0-4a3a-842b-f03660223ab9": {
    "sev": 3,
    "t": "2026-11-21T03:33:51Z"
+  },
+  "a3b8bdbe-599d-477d-a26a-2db5e8adc121": {
+   "sev": 3,
+   "t": "2026-11-28T18:33:07Z"
   },
   "a41034a0-9ef0-4ea4-8ac7-c5e88dc28fb5": {
    "sev": 3,
@@ -1241,6 +1398,10 @@
    "sev": 3,
    "t": "2026-11-28T10:47:54Z"
   },
+  "c4d4c7e3-e7b6-4fe0-a78c-d5c62d6d19a0": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
+  },
   "c56197d0-bcc6-49fa-9da6-3a80c661759b": {
    "sev": 2,
    "t": "2026-11-24T15:05:15Z"
@@ -1332,6 +1493,10 @@
   "cf38a170-7b2f-428e-bcf0-f1306f6dc52a": {
    "sev": 2,
    "t": "2026-11-27T11:01:41Z"
+  },
+  "cfc53724-cc38-4534-9156-20b6a3391d60": {
+   "sev": 2,
+   "t": "2026-11-28T18:33:07Z"
   },
   "cfe5e53f-e286-4c8a-9a3e-be9afb931482": {
    "sev": 4,
@@ -1626,7 +1791,7 @@
  "initialized": true,
  "last_check_day": "2026-11-28",
  "last_digest_slot": "2026-11-28T11",
- "last_run": "2026-11-28T12:18:18Z",
+ "last_run": "2026-11-28T18:33:07Z",
  "scope_version": 3,
  "version": 2
 }
