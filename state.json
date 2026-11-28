@@ -1,78 +1,5 @@
 {
- "digest_queue": [
-  {
-   "_cc": "IR",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-27 22:36:18",
-   "id": "079b96a1-71b1-4628-a406-3183c297c2e3",
-   "lat": 30.763,
-   "lng": 49.702,
-   "location_name": "Omidiyeh, Iran",
-   "severity": 2,
-   "title": "Multiple Ballistic Missile Launches Reported in Omidiyeh, Iran"
-  },
-  {
-   "_cc": "IR",
-   "category": "political",
-   "confidence": 15,
-   "created_at": "2026-11-27 23:10:38",
-   "id": "b412dddb-2653-4294-9fd8-5ade556b61f7",
-   "lat": 32.43,
-   "lng": 53.69,
-   "location_name": "Iran",
-   "severity": 2,
-   "title": "IRGC Officials Vow to Break US Blockade on Strait of Hormuz"
-  },
-  {
-   "_cc": "GW",
-   "category": "political",
-   "confidence": 55,
-   "created_at": "2026-11-28 00:06:03",
-   "id": "1c924490-0274-4b23-a636-198f095378e0",
-   "lat": 26.5,
-   "lng": 56.3,
-   "location_name": "Strait of Hormuz",
-   "severity": 2,
-   "title": "US Central Command Refutes Iranian Commander's Claims"
-  },
-  {
-   "_cc": "KW",
-   "category": "political",
-   "confidence": 30,
-   "created_at": "2026-11-28 00:07:39",
-   "id": "94647697-324e-4b1b-8427-0bf7ef431978",
-   "lat": 29.31,
-   "lng": 47.48,
-   "location_name": "Kuwait",
-   "severity": 2,
-   "title": "Italy Says Drone in Deadly Kuwait Attack Was Made in Iran"
-  },
-  {
-   "_cc": "YE",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-28 00:47:13",
-   "id": "ab42166e-0b2e-452d-b854-0171c0e0f9cf",
-   "lat": 15.463,
-   "lng": 45.326,
-   "location_name": "Marib, Yemen",
-   "severity": 2,
-   "title": "Ansarallah Drone Shot Down Near Marib"
-  },
-  {
-   "_cc": "BH",
-   "category": "conflict",
-   "confidence": 15,
-   "created_at": "2026-11-28 02:13:33",
-   "id": "672b1156-a8ba-4125-9413-06ad51c7f90f",
-   "lat": 26.07,
-   "lng": 50.56,
-   "location_name": "Bahrain",
-   "severity": 2,
-   "title": "US Base in Bahrain Remains Low-Staffed Months After Iranian Strikes"
-  }
- ],
+ "digest_queue": [],
  "events": {
   "00e9d152-5099-4fcf-b6bd-1d13622c1b37": {
    "sev": 2,
@@ -1342,6 +1269,10 @@
    "sev": 3,
    "t": "2026-11-24T04:22:46Z"
   },
+  "cc6d63db-a9d6-4f22-b365-32b8076c9edf": {
+   "sev": 3,
+   "t": "2026-11-28T03:35:14Z"
+  },
   "cc8498ff-b4c1-4fc9-9bdb-b828442dcfd7": {
    "sev": 1,
    "t": "2026-11-19T18:21:24Z"
@@ -1666,8 +1597,8 @@
  "fail_count": 0,
  "initialized": true,
  "last_check_day": "2026-11-28",
- "last_digest_slot": "2026-11-27T19",
- "last_run": "2026-11-28T02:29:01Z",
+ "last_digest_slot": "2026-11-28T03",
+ "last_run": "2026-11-28T03:35:14Z",
  "scope_version": 3,
  "version": 2
 }
